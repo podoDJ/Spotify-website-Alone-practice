@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif; 
+  color: white;
+}
+
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  height: 80px;
+}
+
+.nav-item{
+  font-weight: 700;
+  padding: 28px 17px;
+}
+
+a{
+  color: white;
+  text-decoration:none;
+}
+
+a:hover{
+  color: #1ed760;
+}
+
+main{
+  height:969px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+}
+
+.main-container{
+  display:block;
+}
+
+.headline{
+  font-size: 146px;
+  line-height: 166px;
+  color: #1ed760;
+  font-weight: 900;
+  padding-bottom: 40px;
+  position: relative;
+  left: 225px;
+}
+
+.headline-first{
+  position:relative;
+  left: -2.5em;
+}
+
+.sub-title{
+  color: #1ed760;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+.button-area{
+  text-align: center;
+}
+
+.button-style{
+  color: #2941ab;
+  border: none;
+  border-radius: 500px;
+  padding: 14px 32px;
+  background-color: #1ed760;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-style:hover{
+  transform: scale(1.07);
+  
+  background-color: #2de26d;
+}
+
+footer{
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container{
+ max-width: 1170px;
+ width: 100%;
+ display: block;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+}
+
+.first-box{
+  width:60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-box-menu{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+
+.first-box-menu-subtitle{
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.first-box-menu-item{
+  font-size: 16px;
+  padding: 3px 0px 15px;
+}
+
+.second-box{
+  width:40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:54px;
+  height:54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.icon{
+  font-size: 24px;
+}
+
+.icon:hover{
+  color: #2de26d;
+}
+
+.bottom-first{
+  display:flex;
+  justify-content: flex-end;
+  color: #919496;
+  font-size: 12px;
+  padding-bottom;
+}
+
+.bottom-second{
+  display:flex;
+  justify-content: space-between;
+  color: #919496;
+  margin-top: 12px;
+}
+
+.bottom-second-box1{
+  display:flex;
+  justify-content: space-around;
+}
+
+.bottom-second-box1-item{
+  color:#919496;
+  margin-right: 24px;
+}
